@@ -95,15 +95,15 @@ def app():
     
     ciudad_modelo_map = {
         'Amsterdam': ('DATOS20/amsterdam_weekdays.csv', 'DATOS20/amsterdam_weekends.csv', 'MODELOS/trained_model_amsterdam.pkl'),
-        'Atenas': ('DATOS20/athens_weekdays.csv', 'DATOS20/athens_weekends.csv', 'MODELOS/trained_model_athens.pkl'),
+        'Athens': ('DATOS20/athens_weekdays.csv', 'DATOS20/athens_weekends.csv', 'MODELOS/trained_model_athens.pkl'),
         'Barcelona': ('DATOS20/barcelona_weekdays.csv', 'DATOS20/barcelona_weekends.csv', 'MODELOS/trained_model_barcelona.pkl'),
-        'Berlín': ('DATOS20/berlin_weekdays.csv', 'DATOS20/berlin_weekends.csv', 'MODELOS/trained_model_berlin.pkl'),
+        'Berlin': ('DATOS20/berlin_weekdays.csv', 'DATOS20/berlin_weekends.csv', 'MODELOS/trained_model_berlin.pkl'),
         'Budapest': ('DATOS20/budapest_weekdays.csv', 'DATOS20/budapest_weekends.csv', 'MODELOS/trained_model_budapest.pkl'),
-        'Lisboa': ('DATOS20/lisbon_weekdays.csv', 'DATOS20/lisbon_weekends.csv', 'MODELOS/trained_model_lisbon.pkl'),
-        'Londres': ('DATOS20/london_weekdays.csv', 'DATOS20/london_weekends.csv', 'MODELOS/trained_model_london.pkl'),
-        'París': ('DATOS20/paris_weekdays.csv', 'DATOS20/paris_weekends.csv', 'MODELOS/trained_model_paris.pkl'),
+        'Lisbon': ('DATOS20/lisbon_weekdays.csv', 'DATOS20/lisbon_weekends.csv', 'MODELOS/trained_model_lisbon.pkl'),
+        'London': ('DATOS20/london_weekdays.csv', 'DATOS20/london_weekends.csv', 'MODELOS/trained_model_london.pkl'),
+        'Paris': ('DATOS20/paris_weekdays.csv', 'DATOS20/paris_weekends.csv', 'MODELOS/trained_model_paris.pkl'),
         'Roma': ('DATOS20/rome_weekdays.csv', 'DATOS20/rome_weekends.csv', 'MODELOS/trained_model_rome.pkl'),
-        'Viena': ('DATOS20/vienna_weekdays.csv', 'DATOS20/vienna_weekends.csv', 'MODELOS/trained_model_vienna.pkl')
+        'Vienna': ('DATOS20/vienna_weekdays.csv', 'DATOS20/vienna_weekends.csv', 'MODELOS/trained_model_vienna.pkl')
     }
     
     if ciudad in ciudad_modelo_map:
