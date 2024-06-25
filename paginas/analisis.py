@@ -102,7 +102,7 @@ def app():
         'Lisbon': ('DATOS20/lisbon_weekdays.csv', 'DATOS20/lisbon_weekends.csv', 'MODELOS/trained_model_lisbon.pkl'),
         'London': ('DATOS20/london_weekdays.csv', 'DATOS20/london_weekends.csv', 'MODELOS/trained_model_london.pkl'),
         'Paris': ('DATOS20/paris_weekdays.csv', 'DATOS20/paris_weekends.csv', 'MODELOS/trained_model_paris.pkl'),
-        'Roma': ('DATOS20/rome_weekdays.csv', 'DATOS20/rome_weekends.csv', 'MODELOS/trained_model_rome.pkl'),
+        'Rome': ('DATOS20/rome_weekdays.csv', 'DATOS20/rome_weekends.csv', 'MODELOS/trained_model_rome.pkl'),
         'Vienna': ('DATOS20/vienna_weekdays.csv', 'DATOS20/vienna_weekends.csv', 'MODELOS/trained_model_vienna.pkl')
     }
     
